@@ -18,8 +18,8 @@ importers:
         specifier: ^10.18.0
         version: 10.18.0
       '@neondatabase/serverless':
-        specifier: ^0.9.4
-        version: 0.9.4
+        specifier: ^1.2.2
+        version: 1.2.2
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.1
         version: 1.1.1(@types/react-dom@18.3.0)(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -58,7 +58,7 @@ importers:
         version: 0.6.3
       drizzle-orm:
         specifier: ^0.33.0
-        version: 0.33.0(@neondatabase/serverless@0.9.4)(@types/pg@8.11.6)(@types/react@18.3.4)(react@18.3.1)
+        version: 0.33.0(@neondatabase/serverless@1.2.2)(@types/pg@8.11.6)(@types/react@18.3.4)(react@18.3.1)
       firebase:
         specifier: ^10.13.1
         version: 10.13.1
@@ -1450,8 +1450,9 @@ packages:
   '@motionone/utils@10.18.0':
     resolution: {integrity: sha512-3XVF7sgyTSI2KWvTf6uLlBJ5iAgRgmvp3bpuOiQJvInd4nZ19ET8lX5unn30SlmRH7hXbBbH+Gxd0m0klJ3Xtw==}
 
-  '@neondatabase/serverless@0.9.4':
-    resolution: {integrity: sha512-D0AXgJh6xkf+XTlsO7iwE2Q1w8981E1cLCPAALMU2YKtkF/1SF6BiAzYARZFYo175ON+b1RNIy9TdSFHm5nteg==}
+  '@neondatabase/serverless@1.2.2':
+    resolution: {integrity: sha512-Zkq+/V9o34IKntqe8c0JMjxQ+MLF/t695x4IXHMKchHk/rn8rqpC1oZ3qouh1UFMDr/nRlrCtSlcsaxTmeclJg==}
+    engines: {node: '>=19.0.0'}
 
   '@next/env@14.2.7':
     resolution: {integrity: sha512-OTx9y6I3xE/eih+qtthppwLytmpJVPM5PPoJxChFsbjIEFXIayG0h/xLzefHGJviAa3Q5+Fd+9uYojKkHDKxoQ==}
@@ -6935,9 +6936,7 @@ snapshots:
       hey-listen: 1.0.8
       tslib: 2.7.0
 
-  '@neondatabase/serverless@0.9.4':
-    dependencies:
-      '@types/pg': 8.11.6
+  '@neondatabase/serverless@1.2.2': {}
 
   '@next/env@14.2.7': {}
 
@@ -8489,9 +8488,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.33.0(@neondatabase/serverless@0.9.4)(@types/pg@8.11.6)(@types/react@18.3.4)(react@18.3.1):
+  drizzle-orm@0.33.0(@neondatabase/serverless@1.2.2)(@types/pg@8.11.6)(@types/react@18.3.4)(react@18.3.1):
     optionalDependencies:
-      '@neondatabase/serverless': 0.9.4
+      '@neondatabase/serverless': 1.2.2
       '@types/pg': 8.11.6
       '@types/react': 18.3.4
       react: 18.3.1
